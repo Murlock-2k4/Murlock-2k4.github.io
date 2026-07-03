@@ -182,3 +182,12 @@ nav{
         gap: 18px;
     }
 }
+
+.logo a {
+    color: #ff7a00;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    text-decoration: none;
+}
