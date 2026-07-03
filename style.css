@@ -133,3 +133,37 @@ nav{
 .nav-links a:hover{
     color:#ff7a00;
 }
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.project-card {
+    background: #1b1b1b;
+    padding: 25px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+
+    transition: 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border: 1px solid #ff7a00;
+}
+
+.project-card h3 {
+    color: #ff7a00;
+    margin-bottom: 15px;
+}
+
+.project-card span {
+    display: inline-block;
+    margin-top: 20px;
+    color: #ff7a00;
+    font-weight: bold;
+}
