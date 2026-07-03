@@ -147,6 +147,7 @@ nav{
     border-radius: 12px;
     text-decoration: none;
     color: white;
+    border: 1px solid #333;
 
     transition: 0.2s ease;
 }
@@ -166,4 +167,18 @@ nav{
     margin-top: 20px;
     color: #ff7a00;
     font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    nav {
+        padding: 20px 30px;
+    }
+
+    .nav-links {
+        gap: 18px;
+    }
 }
