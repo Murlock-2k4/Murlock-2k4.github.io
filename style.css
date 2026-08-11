@@ -219,3 +219,41 @@ nav{
     color: #f5f5f5;
     font-weight: bold;
 }
+
+.project-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    margin-top: 80px;
+}
+
+.project-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.project-text,
+.project-image {
+    flex: 1;
+}
+
+.project-image img {
+    width: 100%;
+    display: block;
+
+    border: 1px solid #333;
+    border-radius: 12px;
+}
+
+@media (max-width: 800px) {
+    .project-row,
+    .project-row.reverse {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .project-text,
+    .project-image {
+        width: 100%;
+    }
+}
