@@ -42,6 +42,12 @@ body::after {
     padding:170px 0 100px;
 }
 
+.project-container {
+    width: min(1300px, 90%);
+    margin: 0 auto;
+    padding: 170px 0 100px;
+}
+
 h1 {
     font-size: clamp(48px, 8vw, 90px);
     margin: 0 0 20px;
@@ -232,9 +238,12 @@ nav{
     flex-direction: row-reverse;
 }
 
-.project-text,
+.project-text {
+    flex: 0.8;
+}
+
 .project-image {
-    flex: 1;
+    flex: 1.2;
 }
 
 .project-image img {
